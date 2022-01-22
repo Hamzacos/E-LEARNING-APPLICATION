@@ -78,7 +78,7 @@ $students = [
         <?php include 'sideBar.php'; ?>
         <div class="col">
         <?php include 'navbar.php'; ?>
-              <div class="bg-light div container-fluid">
+              <div class="bg-light div ">
                 <div class="d-flex align-items-center  justify-content-center justify-content-sm-between  mt-3">
               <h5 class="fw-bolder d-none d-sm-block mx-3">Students List</h5>
               <div class="d-flex align-items-center">
@@ -87,7 +87,8 @@ $students = [
             </div>
             </div>
             <hr>
-            <div class="table-responsive-sm table-responsive-md">
+            
+            <div class="table-responsive-sm table-responsive-md table-responsive-lg">
             <table class="table table-borderless">
                 <thead>
                   <tr>
@@ -104,7 +105,7 @@ $students = [
                   <?php 
                   foreach($students as $key)
                   {
-                    echo "<tr>
+                    echo "<tr class = 'bg-white'>
                     <th scope='row' class='salut'><img src='{$key['img']}' alt='students' width='65px' 
                     /></th>
                   <td>{$key['name']}</td>
@@ -113,20 +114,20 @@ $students = [
                   <td>{$key['number']}</td>
                   <td>{$key['date']}</td>
                   <td><i class='fal fa-pen text-info'></i><i class='fal fa-trash text-info mx-1'></i></td>
-                    </tr>"; 
+                    </tr> <th>";
+                   
                   }
                   ?>
-
-                    
                 </tbody>
               </table>
               </div>
+              </div>
 
             </div>
-                </div> 
+          
      </div> 
               
- </div>
+ 
     
     
 
