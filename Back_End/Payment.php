@@ -47,7 +47,7 @@ $user = [
     <div class="container-fluid bg-light overflow-hidden">
         <div class="row flex-nowrap vh-100 ">
         <?php include 'sideBar.php'; ?>
-        <div class="col">
+        <div class="col overflow-auto">
         <?php include 'navbar.php'; ?>
               <div class=" div container-fluid">
                 <div class="d-flex align-items-center  justify-content-center justify-content-sm-between  mt-3">

@@ -67,7 +67,7 @@ $students = [
     <div class="container-fluid bg-light overflow-hidden">
         <div class="row flex-nowrap">
         <?php include 'sideBar.php'; ?>
-        <div class="col">
+        <div class="col overflow-auto">
         <?php include 'navbar.php'; ?>
               <div class="bg-light div ">
                 <div class="d-flex align-items-center  justify-content-center justify-content-sm-between  mt-3">
