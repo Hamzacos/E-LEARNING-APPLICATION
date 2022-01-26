@@ -3,7 +3,7 @@
                     <div class=" mb-3 d-flex justify-content-start">
                         <a class="navbar-brand text-black border-start border-3 border-info px-2 " href="#">E-Classe</a>
                          </div>
-                        <img src="https://github.com/mdo.png" alt="hugenerd" width="50" height="50" class="rounded-circle"><br>
+                        <img src= "img/user.jpg" alt="hugenerd" width="50" height="50" class="rounded-circle"><br>
                         <span class="adm text-dark">Admin Name</span>
                         <p class="text-info">Admin</p>
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start " id="menu">
